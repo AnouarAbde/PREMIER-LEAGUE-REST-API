@@ -1,0 +1,19 @@
+
+                  ^
+postgres=# GRANT ALL PRIVILEGES ON DATABASE "prem_stats" TO postgres;
+GRANT
+postgres=# CREATE TABLE player_statistics(
+postgres(# player_name VARCHAR(100),
+postgres(# nation VARCHAR(50),
+postgres(# position VARCHAR(50),
+postgres(# age INTEGER,
+postgres(# matches_played INTEGER,
+postgres(# minutes_played FLOAT,
+postgres(# goals FLOART,
+postgres(# assists FLOAT,
+postgres(# penalties_scored FLOAT,
+postgres(# red_cards FLOAT,
+postgres(# expected_goals FLOAT,
+postgres(# expected_assists FLOAT,
+postgres(# team_name VARCHAR(100)
+postgres(# );
